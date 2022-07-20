@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        color: rgb(18, 19, 18);
+        background-color: antiquewhite;
+        border-radius: 13px;
+        box-shadow: 200px;
+        width: 600px;
+        height: 900px;
+        
+    }
+   
+  h5 {
+       box-shadow: 200px;
+       border-radius: 15px;
+       
+   }
+    
+    body{
+        color: aqua;
+    }
+    button{
+        background-color: black;
+        color: rgb(237, 241, 241);
+        border-radius: 12px;
+        width: 100px;
+        height: 40px;
+    }
+    p{
+        background-color: aliceblue;
+        width: fit-content;
+    }
+</style>
+<body>
+   <center>
+       
+    <form action="center">
+        <h5 style="background-color: rgb(209, 209, 174);width: fit-content;height: fit-content;color: rgb(56, 59, 59);">
+       <CENter> <h1 style="color: black;background-color: brown;border-radius: 10PX;width: auto;">APPLICATION FORM</h1>
+    </CENter>
+    <p style="background-color: rgb(81, 55, 129);width: auto;color: rgb(198, 218, 20);">...................  Fill Your Personal Details  ...............</p>
+      <label >First Name    : </label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br><br>
+        <label>Last Name    : </label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lname" id="lname"><br><br>
+            <label>Father Name : </label><input type="text" name="faname" id="faname"><br><br>
+                <label>Mother Name : </label><input type="text" name="mname" id="mname"><br><br>
+                    <label>Gender : </label>
+                         <input type="radio" id="male" name="gender" value="HTML">
+                          <label for="male">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" id="female" name="gender" value="female">
+                          <label for="female">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                        <label>Registration no : </label><input type="text"><br><br>
+                        <label>Institute Name  : </label><input type="search"><br><br>
+                        <label>Date Of Birth : </label><input type="date" name="month" id="month"><br><br>
+                        <label>Email  &nbsp;  :</label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="mail" id="mail"><br><br>
+                        <label>Mobile &nbsp; :</label>&nbsp;<input type="text" name="f" id="f">
+                      <h style="background-color:aliceblue; width:fit-content"> <p>Choose Your image PDF Only :</p></h>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Upload Image :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name="photo" id="photo">
+                        <h style="background-color:aliceblue; width:fit-content"> <p>Choose Your Resume PDF Only :</p></h>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Upload Resume :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name="photo" id="photo"><br><br>
+                        <label>Nationality : </label><input type="text" name="indian" id="indian"><br><br>
+                        <label for="cars">High qualification :</label>
+
+                        <select id="High">
+                            <option value=""><br><br></option>
+                          <option value="Btech">Btech</option>
+                          <option value="Mca">Mca</option>
+                          <option value="Bsc">Bsc</option>
+                          <option value="JAYAPAL">JAYAPAL</option>
+                        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+                        <label>Create Password : </label><input type="password">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br>
+
+                        
+                    
+                        <button type="reset">RESET</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       
+            
+         <body style="background-color: rgb(204, 209, 199);">
+          
+            <script type="text/javascript">
+                function jaya(src1,width,height,alt){
+                    var img=document.createElement("img");
+                    img.src=src1;
+                    img.width=width;
+                    img.height=height;
+                   img.alt=alt;
+                   
+                  document.write("<html><body bgcolor=white text=black> <h1>");
+                   document.write("<center><h1>...... THANK YOU FOR APPLYING ......</h1><center>");
+                    document.write("</h1></body></html>");
+                    document.body.appendChild(img);
+                }
+            </script>
+              <button onclick="jaya('https://chameleonresumes.com/wp-content/uploads/2014/01/18021990_s.jpg',600,600,'photo')">SUBMIT</button>
+              
+
+<br><br>
+  
+
+</h5>
+ </form>
+             
+</center>          
+            
+</body>
+</html>
